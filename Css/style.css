@@ -1,0 +1,98 @@
+/* Geral */
+.row{
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Cabeçalho */
+ nav{
+    background-color: #444;
+
+}
+#meuPortifolio{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.navbar-nav a{
+    color: #D3D3D3;
+    font-size: 1.1em;
+ }
+ .navbar-nav a:hover{
+    color: #fff;
+ }
+/* Sobre Perfil */
+#about-area {
+    background-color: #D3D3D3;
+}
+#about-area p{
+    font-weight: 500;
+    font-size: 17px;
+}
+#perfil-foto{
+    /* max-width: 257px;
+    max-height: 319px; */
+    /* height: 100%;
+    width: 100%; */
+    border-radius: 20px;
+}
+/* Interesse Area */
+#interesse-area {
+    background-color: #FFEFD5;
+}
+#interesse-area p{
+    font-weight: 500;
+    font-size: 17px;
+}
+/* Currículo */
+#curriculo-area{
+    background-color: #F0FFF0;
+}
+#p-cabecalho{
+    font-size: 20px;
+    font-weight: bold;
+}
+.curriculo-list li{
+    font-size: 17px;
+}
+/* Contato Area */
+#contato-area{
+    background-color: #E0FFFF;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+}
+.contact-box a {
+    text-decoration: none;
+}
+/* Footer */
+#copy-area{
+    background-color: #444;
+    
+}
+#copy-area p{
+    color: #DCDCDC;
+    font-size: 18px;
+}
+#copy-area a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+}
+
